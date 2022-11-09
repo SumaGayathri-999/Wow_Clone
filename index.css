@@ -199,12 +199,14 @@
   .two_col_banner img{
     width:100%;
     height:100vh;
-    object-fit:cover;
+    object-fit:fill;
     overflow:hidden;
   }
   
   .banner_image{
     position:relative;
+    
+
   }
   
   .banner_text button{
@@ -219,6 +221,7 @@
   }
   .footer li{
     list-style-type: none;
+    margin-bottom: 5px;
   }
   .footer{
       background-color:#f8f8f8;
@@ -453,7 +456,8 @@
       padding:10px;
       transform:translate(-50%,0);
       width:50%;
-      height:20%;
+      /* height:20%; */
+      /* height:300px; */
       background-color:white;
     }
     .banner_text  h1{
