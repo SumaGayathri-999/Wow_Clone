@@ -5,7 +5,7 @@
   }
  
  .coupon{
-  position:absolute;
+  position:fixed;
   margin-top:80px;
   left:50%;
   z-index:100;
