@@ -16,8 +16,11 @@ h6{
     letter-spacing:0.2em;
     font-size:0.8rem;
 }
-a{
-    color:black !important;
+.ca{
+    color:black;
+}
+.caToggle{
+    color:white;
 }
 a:hover{
     text-decoration:none
